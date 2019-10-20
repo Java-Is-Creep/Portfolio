@@ -9661,11 +9661,12 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(00, 77, 66, 0.8) 0%, rgba(00, 77, 66, 0.8) 100%), url("../img/backgroundMenu5.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient(to bottom, rgba(00, 77, 66, 0.8) 0%, rgba(00, 77, 66, 0.8) 100%), url("../img/bg.gif");
+  background-position: 0 0;
+  background-repeat: repeat-x;
   background-attachment: scroll;
   background-size: cover;
+  animation: animate 15s linear infinite;
 }
 
 header.masthead h1 {
