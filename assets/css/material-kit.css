@@ -5549,7 +5549,7 @@ button.close {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #ffffff;
+  background-color: #212529;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -9657,6 +9657,12 @@ button:focus {
 
 .btn.btn-white.btn-link {
   color: #fff;
+  background: transparent;
+  box-shadow: none;
+}
+
+.btn.btn-myBlack.btn-link {
+  color: #212529;
   background: transparent;
   box-shadow: none;
 }
@@ -16237,7 +16243,7 @@ footer .pull-center {
   margin-bottom: 30px;
   margin-top: 30px;
   border-radius: 6px;
-  color: rgba(0, 0, 0, 0.87);
+  color: #fff;
   background: #fff;
   width: 100%;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -16400,7 +16406,7 @@ footer .pull-center {
 .card.bg-primary,
 .card.card-rotate.bg-primary .front,
 .card.card-rotate.bg-primary .back {
-  background: linear-gradient(60deg, #ab47bc, #7b1fa2);
+  background: linear-gradient(60deg, #FEC810, #FE9210);
 }
 
 .card .card-header-info,
@@ -16439,7 +16445,7 @@ footer .pull-center {
 }
 
 .card .card-header-primary {
-  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(156, 39, 176, 0.6);
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(254, 200, 16, 0.6);
 }
 
 .card .card-header-danger {
@@ -16473,7 +16479,7 @@ footer .pull-center {
 .card[class*="bg-"] .card-title a,
 .card[class*="bg-"] .card-title,
 .card[class*="bg-"] .icon i {
-  color: #fff;
+  color: #212529;
 }
 
 .card [class*="header-"] .icon i,
